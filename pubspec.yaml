@@ -1,0 +1,62 @@
+name: go_pool
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.5
+  flutter_bloc: ^8.1.2
+  animation_wrappers: ^3.0.0
+  google_mobile_ads: ^2.3.0
+  google_maps_flutter: ^2.2.3
+  flutter_polyline_points: ^1.0.0
+  equatable: ^2.0.5
+  flutter_native_splash: ^2.2.16
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+    
+flutter_launcher_name:
+  name: "Rifuti"
+
+flutter_native_splash: #CCA9FD  
+  color: "#7A6EFE"
+  image: assets/splashscreen.png
+  wait_duration: 0001
+  android: true
+  ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/profiles/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Medium.ttf
+        - asset: fonts/Poppins-SemiBold.ttf
